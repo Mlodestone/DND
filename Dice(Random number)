@@ -1,0 +1,3 @@
+userInput = prompt("Tell me how many sides your dice you want to roll is");
+cpuAns = Math.floor(Math.random()*+userInput);
+alert(+cpuAns);
